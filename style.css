@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+.navbar .left {
+  font-size: 20px;
+}
+.navbar .right select {
+  padding: 5px;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.header div {
+  flex: 1;
+  border-right: 2px solid black;
+  padding: 5px;
+}
+.header div:last-child {
+  border-right: none;
+}
+.header div span {
+  display: block;
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+.header div input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.questions div {
+  width: 48%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.questions div span {
+  display: block;
+  margin-bottom: 5px;
+}
+.questions div span label {
+  margin-right: 10px;
+}
+.questions div span input[type="radio"] {
+  margin-right: 5px;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.submit-btn:hover {
+  background-color: #555;
+}
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  text-align: center;
+  display: none;
+}
