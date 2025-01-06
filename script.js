@@ -30,7 +30,7 @@ function validateAndClearAnswers() {
       }
   }
   const name = document.getElementById('name').value;
-  document.getElementById('result').innerText = `Nama : ${name}||  Nilai anda adalah  ${score}/20`;
+  document.getElementById('result').innerText = `Nama : ${name} ||  Nilai anda adalah  ${score}/20`;
   document.getElementById('result').style.display = 'block';
   clearAnswers();
 }
